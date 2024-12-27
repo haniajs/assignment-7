@@ -42,7 +42,7 @@ const Page = () => {
             {data.map ((client, index) => (
                 <div key={index} className="flex flex-col rounded-[10px] p-4 h-[1100px] w-[380px] shadow-xl border">
                     <div className="pt-10">
-                    <img src={client.image} alt={client.title} className="h-[200px] w-[150px] ml-[100px]" />
+                    <Image src={client.image} alt={client.title} height={200} width={150} className="h-[200px] w-[150px] ml-[100px]" />
                     <p className="font-bold text-[20px] leading-[24px] mt-6">{client.title}</p>
                     <p className="font-medium text-[18px] leading-[24px] mt-4">{client.category}</p>
                     <p className="font-medium text-[20px] leading-[24px] mt-4">price: ${client.price}</p>
@@ -71,7 +71,7 @@ const Page = () => {
             {data.map ((client, index) => (
                 <div key={index} className="flex flex-col rounded-[10px] p-4 h-[1100px] w-[380px] shadow-xl border">
                     <div className="pt-10">
-                    <img src={client.image} alt={client.title} className="h-[200px] w-[150px] ml-[100px]" />
+                    <Image src={client.image} alt={client.title} height={200} width={150} className="h-[200px] w-[150px] ml-[100px]" />
                     <p className="font-bold text-[20px] leading-[24px] mt-6">{client.title}</p>
                     <p className="font-medium text-[18px] leading-[24px] mt-4">{client.category}</p>
                     <p className="font-medium text-[24px] leading-[24px] mt-4">price: ${client.price}</p>
