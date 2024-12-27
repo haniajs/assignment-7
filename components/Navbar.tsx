@@ -19,7 +19,7 @@ export default function Navbar () {
      <div className="sm:hidden md:block">
         <div className="w-full h-[80px] bg-violet-800 flex">
             <div>
-                <h1 className="text-white p-8 font-medium text-[40px] leading-[20px]"><b>"DATA FATCHING"</b></h1>
+                <h1 className="text-white p-8 font-medium text-[40px] leading-[20px]"><b>&quot;DATA FATCHING&quot;</b></h1>
             </div>
             <div className="pl-[380px]">
                 <nav className="pt-6">
@@ -42,7 +42,7 @@ export default function Navbar () {
       <div className="flex justify-between items-center">
         {/* Logo or Brand */}
         <div className="flex gap-x-2">
-        <h1 className="font-medium text-[35px] leading-[20px] text-white"><b>"DATA FATCHING"</b></h1>
+        <h1 className="font-medium text-[35px] leading-[20px] text-white"><b>&quot;DATA FATCHING&quot;</b></h1>
         </div>
 
         {/* Hamburger Button for Mobile */}

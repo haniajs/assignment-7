@@ -11,7 +11,7 @@ const Page = () => {
             console.log("this is running before the page load");
             setLoading(false);
         },3000);
-    }, [refetchApi]);
+    }, [refetchApi, setRefetchApi]);
 
 
     return (
@@ -29,4 +29,5 @@ const Page = () => {
 
 
 export default Page;
+
 

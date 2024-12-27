@@ -9,7 +9,7 @@ export default function Footer () {
     <div className="h-[360px] bg-violet-800">
         <div className="flex w-full h-[260px] bg-violet-800 text-white pl-[80px] border border-b-white">
             <div className="flex-1 pt-10">
-                <h1 className="font-bold text-[30px] leading-[35px]">"DATA FATCHING"</h1>
+                <h1 className="font-bold text-[30px] leading-[35px]">&quot;DATA FATCHING&quot;</h1>
                 <p className="font-normal text-[16px] leading-[24px] pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                    Molestiae modi cum ipsam ad, illo possimus laborum ut
                    reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur
@@ -41,7 +41,7 @@ export default function Footer () {
     <div className="md:hidden sm:block">
         <div className="h-[680px] bg-violet-800">
             <div className="text-center text-white border border-b-white">
-                <h1 className="font-bold text-[30px] leading-[35px] pt-8">"DATA FATCHING"</h1>
+                <h1 className="font-bold text-[30px] leading-[35px] pt-8">&quot;DATA FATCHING&quot;</h1>
                 <p className="font-normal text-[16px] leading-[24px] pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                    Molestiae modi cum ipsam ad, illo possimus laborum ut
                    reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur
